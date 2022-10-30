@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FunFitness</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
    
 </head>
@@ -12,62 +13,142 @@
     <header>
         <h1>FUN FITNESS</h1>
     </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.html">¿Quienes somos?</a>
-            </li>
-            <li>
-                <a href="rutinas.html">Rutinas</a>
-            </li>
-            <li>
-                <a href="suimc.html">Su IMC</a>
-            </li>
-            <li>
-                <a href="musica.html">Musica para entrenar</a>
-            </li>
-            <li>
-                <a href="contacto.html">Contacto</a>
-            </li>
-        </ul>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">¿Quienes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="html/rutinas.html">Rutinas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/suimc.html">Su IMC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/musica.html">Musica para <br> entrenar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                </div>
+        
+
+             </div>
     </nav>
     <main>
-        <h2>
-            <button class="buscar"> BUSCAR</button>
+        <div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Rutina Favorita" aria-label="Search">
+                <button class="btn btn-dark" type="submit">Buscar</button>
+            </form>
 
-        </h2>
-        <section>
-            <iframe width="400" height="401" src="https://www.youtube.com/embed/7hKWfWirHP4" title="RUTINA GAP sin PESO |  Glúteos Abdomen y Piernas en Casa | Ejercicios para Tonificar 30 Min" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3 class="rut">Aumenta Glúteo</h3>
-            <iframe width="400" height="401" src="https://www.youtube.com/embed/RrWxnQQvw7w" title="GLUTEOS GRANDES SIN PESAS | Rutina para aumentar glúteos en casa | Como aumentar glúteos rápido" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3 class="rut">Glúteos grandes</h3>
-            <iframe width="400" height="401" src="https://www.youtube.com/embed/WK5UF7BjP_A" title="Ejercicios para Aumenta Glúteos con Banda Elástica | Los mejores Ejercicios parta Subir Glúteos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3 class="rut">Glúteos con banda Elástica</h3>
+        </div>
+        
+        <div class="imagenes">
+            <img src="http://mipielsana.com/wp-content/uploads/2012/04/Gluteos.gif" alt="" width="500" height="200">
+        </div>
+        <h3>Gluteos</h3>
+        <section class="videos">
+            
+            <div class="items">
+             
+                <iframe src="https://www.youtube.com/embed/7hKWfWirHP4" title="RUTINA GAP sin PESO |  Glúteos Abdomen y Piernas en Casa | Ejercicios para Tonificar 30 Min" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            <div class="items">
+                <iframe src="https://www.youtube.com/embed/RrWxnQQvw7w" title="GLUTEOS GRANDES SIN PESAS | Rutina para aumentar glúteos en casa | Como aumentar glúteos rápido" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            <div class="items">
+                <iframe src="https://www.youtube.com/embed/WK5UF7BjP_A" title="Ejercicios para Aumenta Glúteos con Banda Elástica | Los mejores Ejercicios parta Subir Glúteos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </section>
+        
+        <div class="imagenes">
+            <img src="https://www.menudospeques.net/images/salud/musculos-abdominales.jpg" alt="" width="500" height="400">
+        </div>
+        <h3>Abdomen</h3>
+        <section class="videos"> 
+            
+            <div class="items">
+                <iframe src="https://www.youtube.com/embed/-HnDGXVRXBw?list=PLn0lBRjLQvKyXbUpSam-exHYwF0OXrnY5" title="ABDOMEN PLANO EN 7 DIAS | Reducir cintura y Abdomen | RETO 7 DIAS, DIA #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="items">
+                <iframe src="https://www.youtube.com/embed/sqlpB43VKYE?list=PLn0lBRjLQvKyXbUpSam-exHYwF0OXrnY5" title="ABDOMEN PLANO EN 7 DIAS | Ejercicios para marcar el abdomen | RETO 7 DIAS, DIA 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="items">
+                <iframe src="https://www.youtube.com/embed/h6ChrrU-SZg?list=PLn0lBRjLQvKyXbUpSam-exHYwF0OXrnY5" title="Abdomen Plano en 7 días | Ejercicios para Eliminar Vientre flácido y Caído  | RETO 7 DIAS, DIA 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+           
+
+        </section>
+        <div class="imagenes">
+            <img src="https://uecluster.blob.core.windows.net/images/1516016973_partes-del-cuerpo-jpg.jpg" alt="" width="500" height="300">
+        </div>
+        <h3>Cardio</h3>
+        <section class="videos">
+            <div class="items">
+                <iframe src="https://www.youtube.com/embed/8tmm02M63TU?list=PLn0lBRjLQvKyXbUpSam-exHYwF0OXrnY5" title="Entrenamiento de 8 minutos para un Abdomen Plano rápido | PRINCIPIANTES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="items">
+                <iframe src="https://www.youtube.com/embed/h6ChrrU-SZg?list=PLn0lBRjLQvKyXbUpSam-exHYwF0OXrnY5" title="Abdomen Plano en 7 días | Ejercicios para Eliminar Vientre flácido y Caído  | RETO 7 DIAS, DIA 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="items">
+                <iframe src="https://www.youtube.com/embed/h6ChrrU-SZg?list=PLn0lBRjLQvKyXbUpSam-exHYwF0OXrnY5" title="Abdomen Plano en 7 días | Ejercicios para Eliminar Vientre flácido y Caído  | RETO 7 DIAS, DIA 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
+        </section>
+        <div class="imagenes">
+            <img src="https://www.creative-anatomical.com/esp/wp-content/uploads/0327CM-Musculos-piernas-MTC.jpg" alt=""  width="300" height="300">
+        </div>
+        <h3>Piernas</h3>
+        <section class="videos">
+            <div class="items">
+                <iframe  src="https://www.youtube.com/embed/mLrZAgDzfH0" title="AUMENTAR Glúteos y piernas rápidamente en casa | Los mejores  ejercicios" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="items">
+                <iframe  src="https://www.youtube.com/embed/fcA0zrnHtvo" title="EJERCICIOS para Glúteos y parte interna del muslo || Adios flacidez y celulitis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="items">
+                <iframe src="https://www.youtube.com/embed/-HnDGXVRXBw?list=PLn0lBRjLQvKyXbUpSam-exHYwF0OXrnY5" title="ABDOMEN PLANO EN 7 DIAS | Reducir cintura y Abdomen | RETO 7 DIAS, DIA #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
+        </section>
+        <br>
+
+        
+            
+
+        
 
 
     </main>
-
-
+  
     <footer>
-        <ul>
-            <li>
-                <p>Creado por <br>Tania León <br>Contacto <br>tanialeonp@gmail.com </p>
-            </li>
-            <li>
+        <section id="gridfooter">
+            <div>
+                <p>Creado por <br>Tania León <br>Contacto <br>tanialeonp@gmail.com <i class="bi bi-envelope-fill"></i> </p>
+            </div>
+            <div >
                 <p>Términos y condiciones <br> Ayuda <br>Información legal <br>Privacidad </p>
-            </li>
-            <li>
-                <p>Siguenos en <br> Twitter,Instagram,Fb,Spotify
-
-            </p>
-        </li>
-        </ul>
+            </div>
+            <div >
+                <p>Siguenos en: <br> <i class="bi bi-youtube"></i> <i class="bi bi-instagram"></i> <i class="bi bi-facebook"></i> <i class="bi bi-spotify"></i> </p>
+            </div>
+        </section>
 
     </footer>
+
     
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+
     
     
     
