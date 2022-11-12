@@ -42,82 +42,97 @@
 
     
     <main>
-        <section>
-            <table class="imc">
-                
-                <td class="prueba">
-                    <table>
-                        <tr>
-                            <th>COMPOSICIÓN CORPORAL</th>
-                            <th>IMC</th>
-                        </tr>
-                        <tr>
-                            <td>Bajo Peso</td>
-                            <td>Menos de 18.5</td>
-                        </tr>
-                        <tr>
-                            <td>Peso Normal</td>
-                            <td>18.5 - 24.9</td>
-                        </tr>
-                        <tr>
-                            <td>Sobrepeso</td>
-                            <td>25.0 - 29.9</td>
-                        </tr>
-                        <tr>
-                            <td>Obesidad</td>
-                            <td>Más de 30.0</td>
-                        </tr>
-        
-                    </table>
-                <td class="prueba2">
-                    <div class="formulario">
-                        <form action="">
-                            <label for="estatura">Estatura</label>
-                            <input type="number" name="Ingrese su estatura" id="estatura_m">
-                            <br>
-                            <label for="peso">Peso</label>
-                            <input type="number" name="Ingrese su peso" id="peso_kg">
-                            <br>
-                            <button>
-                                CALCULAR
-                            </button>
-                            <br>
-                            <label for="resultado">Resultado</label>
-                            <textarea name="resultado" id="resultados" cols="15" rows="1"></textarea>
-        
-                        </form>
+        <section id="grillaimc">
+                <table class="table table-bordered">
+                    <thead>
+                      <tr class="table-secondary">
+                        <th scope="col">COMPOSICIÓN CORPORAL</th>
+                        <th scope="col">IMC</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Bajo Peso</td>
+                        <td>Menos de 18.5</td>
+                      </tr>
+                      <tr>
+                        <td>Peso Normal</td>
+                        <td>18.5 - 24.9</td>
+                      </tr>
+                      <tr>
+                        <td>Sobrepeso</td>
+                        <td>25.0 - 29.9</td>
+                      </tr>
+                      <tr>
+                        <td>Obesidad</td>
+                        <td>Más de 30.0</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+            <div class="formulario">
+                <form>
+                    <div class="mb-3 row">
+                      <label for="estatura" class="col-sm-2 col-form-label">Estatura</label>
+                      <div class="col-sm-10">
+                        <input type="number" class="form-control" >
+                      </div>
                     </div>
-
-                </td>
-            </table>
+                    <div class="mb-3 row">
+                      <label for="peso" class="col-sm-2 col-form-label">Peso</label>
+                      <div class="col-sm-10">
+                        <input type="number" class="form-control" >
+                      </div>
+                    </div>
+                    <div class="d-md-flex justify-content-md-end">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                    
+                    <div class="mb-3 row">
+                        <label for="resultado" class="col-sm-2 col-form-label">Resultado</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" >
+                        </div>
+                    </div>
+                </form>
                 
-
+                        
+            </div>
         </section>
+
         <section>
             <h3>Recomendaciones Saludables</h3>
-            <table class="cosa">
-                <tr>
-                    <th>Alimentación</th>
-                    <th>Activad Física</th>
-                </tr>
-                <tr>
-                    <td>1. Beba abundante agua.</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2. Evita consumir altas cantidades de azúcar.</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3. Agrega vegetales y frutas a tu dieta.</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4. Mastica bien tu comida.</td>
-                    <td></td>
-                </tr>
-            </table>
 
+            <div class="table-responsive">
+                <table class="table table-borderless">
+                  <thead class="table-dark">
+                    <tr>
+                        <th class="table-active">Alimentación</th>
+                        <th>Activad Física</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td>Beba abundante agua.</td>
+                        <td></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Evita consumir altas cantidades de azúcar.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Agrega vegetales y frutas a tu dieta.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Mastica bien tu comida.</td>
+                        <td></td>
+
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
         </section>
 
