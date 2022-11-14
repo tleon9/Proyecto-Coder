@@ -1,0 +1,23 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css":"sass --watch scss/index.scss css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tleon9/Proyecto_LEON.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tleon9/Proyecto_LEON/issues"
+  },
+  "homepage": "https://github.com/tleon9/Proyecto_LEON#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}

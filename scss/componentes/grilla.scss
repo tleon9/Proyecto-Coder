@@ -1,0 +1,54 @@
+@import "variables.scss";
+
+@mixin footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: center;
+    align-content: center;
+    background-color: $negro;
+}
+
+@mixin grillappal {
+    display: grid;
+    justify-items: center;
+    align-items:center;
+    background-color:$color_fondo;
+    
+}
+
+@mixin grillavideos {
+    display: grid;
+    justify-content: center;
+    align-content:center;
+    grid-gap: 20px;
+    background-color: $color_fondo;
+    
+}
+
+@mixin imc {
+        display: grid;
+        grid-template-rows: 2fr 2fr;
+        justify-items: center;
+        align-items:center;
+        padding: 10px;
+        grid-gap: 20px;
+    
+}
+@mixin musica{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 5px;
+    grid-gap:10px;
+    color: $negro;
+}
+@mixin coaches {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        grid-gap:10px;
+        justify-content: center;
+        align-items: center;
+    
+}
