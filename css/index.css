@@ -269,6 +269,13 @@ h3 {
     filter: grayscale(0);
     object-fit: cover;
   }
+  #gridfooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

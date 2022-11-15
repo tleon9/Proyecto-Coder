@@ -255,4 +255,7 @@ h3{
         filter:grayscale(0);
         object-fit: cover; 
     }
+    #gridfooter{
+        @include footer
+    }
 }
